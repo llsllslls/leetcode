@@ -1,4 +1,8 @@
 class Solution:
+    """
+    动态规划问题
+    先创建一个最优结果数组，然后从0~len（nums）算最优结果。
+    """
     def rob(self, nums):
         import numpy as np
         m=np.zeros(len(nums))
